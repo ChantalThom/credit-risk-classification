@@ -10,11 +10,17 @@ to build a model that can identify the creditworthiness of borrowers.
 Factors considered in the analysis included data on:
 
 -the size of the loan
+
 -the interest rate
+
 -borrower income
+
 -debt-to-income ratio
+
 -the number of accounts the borrower held
+
 -derogatory marks against the borrower
+
 -the total debt
 
 The dataset (~77,500 data points) was split into training and testing sets. The training set was used to build Logistic Regression Model 1 using the LogisticRegression from scikit-learn. Logistic Regression Model 1 was then applied to the testing dataset. The purpose of the model was to determine whether a loan to the borrower in the testing set would be low- or high-risk and results are summarized below.
