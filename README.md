@@ -29,7 +29,9 @@ The resampled data was used to build a new logistic regression model (Logistic R
 
 # Results
 
-loan_status value counts: 75,036, 2,500 high risk
+loan_status value counts: 
+75,036 low risk
+2,500 high risk
 
 Logistic Regression Model 1:
 
