@@ -1,3 +1,5 @@
+# Credit Risk Classification Report
+
 # Overview
 
 Purpose of the Analysis
@@ -19,9 +21,7 @@ The dataset (~77,500 data points) was split into training and testing sets. The 
 To resample the training data and ensure that the logistic regression model had an equal number of data points to draw from, the training set data was resampled with the RandomOverSampler module from imbalanced-learn. This generated 56,277 data points for both low-risk (0) and high-risk (1) loans, based on the original dataset.
 The resampled data was used to build a new logistic regression model (Logistic Regression Model 2). The purpose of Logistic Regression Model 2 was to determine whether a loan to the borrower in the testing set would be low- or high-risk. The results are summarized below.
 
-loan_status value counts
-0    75036
-1     2500 high risk
+loan_status value counts: 75,036, 2,500 high risk
 # Results
 
 Logistic Regression Model 1:
